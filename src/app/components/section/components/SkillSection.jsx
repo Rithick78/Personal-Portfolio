@@ -55,7 +55,7 @@ function SkillSection() {
   ]
 
   return (
-    <div className='md:mt-52 sm:mt-40 mt-15 md:mx-10 mx-5 lg:mx-40 2xl:mx-90 mb-10'>
+    <div className='md:mt-52 sm:mt-40 mt-15 md:mx-10 mx-5 lg:mx-40 2xl:mx-90 mb-25 sm:md-10'>
       <div className="w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <h1 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-bold text-center text-white relative z-20">
           My Tech Stack & Tools

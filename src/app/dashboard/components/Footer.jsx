@@ -53,8 +53,8 @@ function Footer() {
             <Link href='https://ai-mock-interview-rj.netlify.app/'>
               <li className='flex items-center text-gray-400 gap-2 md:text-md sm:text-sm text-xs hover:text-gray-700'>AI-Mock Interview<ArrowUpRight className='size-4' /></li>
             </Link>
-            <Link href=''>
-              <li className='flex items-center text-gray-400 gap-2 md:text-md sm:text-sm text-xs hover:text-gray-700'>PortFolio<ArrowUpRight className='size-4' /></li>
+            <Link href='https://portfoliorj7.netlify.app/'>
+              <li className='flex items-center text-gray-400 gap-2 md:text-md sm:text-sm text-xs hover:text-gray-700'>Portfolio<ArrowUpRight className='size-4' /></li>
             </Link>
             <Link href='https://todo-list-rj.netlify.app/'>
               <li className='flex items-center text-gray-400 gap-2 md:text-md sm:text-sm text-xs hover:text-gray-700'>Todo List<ArrowUpRight className='size-4' /></li>

@@ -143,8 +143,8 @@ function ProjectsSection() {
         }
       ],
       image: "/PersonalPorfolio.png",
-      github: "2",
-      live: "2",
+      github: "https://github.com/Rithick78/Personal-Portfolio",
+      live: "https://portfoliorj7.netlify.app/",
       category: "Development"
     },
   ];
@@ -218,8 +218,8 @@ function ProjectsSection() {
         </div>
       </div>
       <Link href='/dashboard/project'>
-        <div className='bg-[white]/30 border border-[white]/30 mb-20 p-3 rounded-3xl'>
-          <button className='text-white flex gap-1 '>View More <ArrowUpRight className='size-6 stroke-1' /></button>
+        <div className='bg-[white]/30 border border-[white]/30 mb-20 sm:p-3 p-2 rounded-3xl'>
+          <button className='text-white flex gap-1 text-sm sm:text-md '>View More <ArrowUpRight className='sm:size-6 size-5 stroke-1' /></button>
         </div>
       </Link>
     </div>

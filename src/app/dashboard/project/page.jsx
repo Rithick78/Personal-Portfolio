@@ -143,8 +143,8 @@ function Projects() {
         }
       ],
       image: "/PersonalPorfolio.png",
-      github: "v",
-      live: "c",
+      github: "https://github.com/Rithick78/Personal-Portfolio",
+      live: "https://portfoliorj7.netlify.app/",
       category: "Development"
     },
     {
@@ -260,10 +260,10 @@ function Projects() {
         speed={10}
         className='custom-class roboto' />
       </h1>
-      <div className='mt-10 flex gap-10 bg-[gray]/20 border border-[gray]/20 px-7 py-3  rounded-3xl '>
+      <div className='mt-10 flex sm:gap-10 gap-7 bg-[gray]/20 border border-[gray]/20 sm:px-7 py-3 px-5  sm:rounded-3xl rounded-2xl'>
         {CategorySection.map((cat, index) => (
           <button onClick={() => setActiveCategory(cat)} key={index}
-            className={`border-none text-sm font-semibold hover:text-[#ADFF2F] ${activeCategory === cat && "text-[#ADFF2F] scale-110"}`}>
+            className={`border-none sm:text-sm text-xs font-semibold hover:text-[#ADFF2F] ${activeCategory === cat && "text-[#ADFF2F] scale-110"}`}>
             {cat}
           </button>
         ))}
