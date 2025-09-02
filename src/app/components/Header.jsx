@@ -20,7 +20,7 @@ function Header() {
 
 
     return (
-        <div className='fixed w-full z-50 flex  items-center justify-between text-white py-7 px-7 md:px-12 lg:px-25 xl:px-50 2xl:px-75'>
+        <div className='fixed w-full z-50 flex  items-center justify-between text-white py-9 px-7 md:px-12 lg:px-25 md:py-12 xl:px-50 2xl:px-75'>
             <Link href='/'>
                 <Image src='/R7.png' width={30} height={30} alt='Icon' className='pt-2' />
             </Link>
