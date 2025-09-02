@@ -24,12 +24,18 @@ function Header() {
             <Link href='/'>
                 <Image src='/R7.png' width={30} height={30} alt='Icon' className='pt-2' />
             </Link>
-            <div className="block md:hidden">
-                {openMenu ?
-                    <button onClick={()=>setOpenMenu(false)}><X className='size-7 stroke-3'/></button>
-                    : <button onClick={()=>setOpenMenu(true)}><Menu className='size-7 stroke-3' /> </button>}
+            <div className="inline-block md:hidden">
+                {openMenu ? (
+                    <button onClick={() => setOpenMenu(false)}>
+                        <X className="size-7 stroke-3" />
+                    </button>
+                ) : (
+                    <button onClick={() => setOpenMenu(true)}>
+                        <Menu className="size-7 stroke-3" />
+                    </button>
+                )}
             </div>
-            <div className={`absolute md:top-0 md:right-0 ${openMenu ? "top-18 right-3": "-top-100 right-3 hidden"} ease-in transition-all md:static flex flex-col md:flex-row gap-10 text-[12px] bg-[black]/20 border-[white]/10 border py-3 px-10 rounded-4xl`}>
+            <div className={`absolute ${openMenu ? "top-18 right-3" : "-top-100 right-3"} ease-in transition-all md:static flex flex-col md:flex-row gap-10 text-[12px] bg-[black]/20 border-[white]/10 border py-3 px-10 rounded-4xl`}>
                 {navItem.map((item, index) => (
                     <Link key={index} href={item.href}>
 
