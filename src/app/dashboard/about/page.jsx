@@ -70,7 +70,14 @@ function About() {
           <div className=' space-y-9 mx-5 lg:mx-0'>
             <h1 className='2xl:text-7xl xl:text-5xl md:text-5xl sm:text-4xl text-2xl font-extrabold text-white space-mono'>A creative <span className='text-[#ADFF2F]'>Frontend <br /> Developer</span> & design-driven<br className='hidden sm:block'/> <span className='text-[#ADFF2F]'>coder</span></h1>
             <p className='roboto text-gray-500 font-extrabold md:text-md text-sm xl:w-150 lg:w-110 md:w-150 sm:w-110 w-80'>I specialize in developing pixel-perfect, accessible, and performance-driven web applications that align with brand goals and enhance user experience.</p>
-            <button className='bg-[white]/30 md:py-3 md:px-7 px-5 py-2 hover:bg-[white]/50 rounded-3xl font-bold border border-[white]/40 md:text-md text-sm'>My Resume</button>
+            <div className='flex gap-5'>
+               <button className='bg-[white]/30 md:py-3 md:px-7 px-5 py-2 hover:bg-[white]/50 rounded-3xl font-bold border border-[white]/40 md:text-md text-sm'>
+                 <a href="/Rithick_Resume.pdf" download="Rithick_Resume.pdf">My Resume</a> 
+               </button>
+               <button className='bg-[black]/30 md:py-3 md:px-7 px-5 py-2 hover:bg-[black]/50 rounded-3xl font-bold border border-[#ADFF2F]  hover:text-[#ADFF2F] md:text-md text-sm'>
+                 <a href="/Rithick_Certificate.pdf" download="Rithick_Certificate.pdf">Certification</a> 
+               </button>
+            </div>
           </div>
         </div>
       </div>
