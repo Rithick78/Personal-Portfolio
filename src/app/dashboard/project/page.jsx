@@ -50,7 +50,7 @@ function Projects() {
 
       ],
       image: "/Resume.png",
-      github: "https://ai-resume-builder-rj.netlify.app/",
+      github: "https://github.com/Rithick78/ai-resume-builder",
       live: "https://ai-resume-builder-rj.netlify.app/",
       category: "Development"
     },
